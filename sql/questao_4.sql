@@ -219,6 +219,9 @@ INSERT INTO pessoa (id_endereco, nome, telefone)
 
 INSERT INTO pessoa (id_endereco, nome, telefone)
  	VALUES (7, 'Bianca Pinto', '075888321911');
+	
+INSERT INTO pessoa (id_endereco, nome, telefone)
+ 	VALUES (9, 'Bruna Pinto', '075988351941');
 
 /*
 Inserção de Destinatário Especialização de Pessoa
@@ -264,6 +267,7 @@ INSERT INTO motorista VALUES (27, '1550797400015', '68337825634', 'D', 'M');
 INSERT INTO motorista VALUES (28, '3124478200011', '33874478254', 'D', 'M');
 INSERT INTO motorista VALUES (29, '9882120400016', '88045674067', 'E', 'F');
 INSERT INTO motorista VALUES (30, '2340175000010', '81550896148', 'D', 'F');
+INSERT INTO motorista VALUES (31, '2340175000011', '66550898475', 'E', 'F');
 
 /*
 Inserção dos veículos
@@ -303,13 +307,16 @@ INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cav
         VALUES (30, '8GTHE21CC25061010', '2011', 4, 'Bau', 1, 'Vertis', 'GWT-1522', 7.5);
        
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho) 
-		VALUES (25, '9DRFP21BN2506145TY', '20051103', 2, 'cacamba', 2, 'Hao 123', 'YKD-7954', 12.0);
+		VALUES (31, '9DRFP21BN2506145TY', '2005', 2, 'cacamba', 2, 'Hao 123', 'YKD-7954', 12.0);
 
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho) 
-		VALUES (29, '68RFP21BN2506145HG', '20041029', 4, 'pedreira', 2, '', 'PGD-7987', 13.0);
+		VALUES (29, '68RFP21BN2506145HG', '2004', 4, 'pedreira', 2, '', 'PGD-7987', 13.0);
 
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria,cavalo_mecanico, modelo, placa, tamanho) 
-		VALUES (22, '9KTFP21YP2506145UH', '20000801', 1, 'Carroceria', 2, 'BI-TREN', 'KCD-7988', 8.0);
+		VALUES (31, '9KTFP21YP2506145UH', '2000', 1, 'Carroceria', 2, 'BI-TREN', 'KCD-7988', 8.0);
+		
+INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria,cavalo_mecanico, modelo, placa, tamanho) 
+		VALUES (22, '8TTFP21YP2506113JG', '1999', 1, 'cacamba', 2, 'BI-TREN', 'KCD-7988', 7.0);
 /*
    insert licenciamento
 */
