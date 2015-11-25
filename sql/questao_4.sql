@@ -273,14 +273,11 @@ INSERT INTO veiculo (
         id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho)
         VALUES (21, '9BWHE21JX25060960', '2009', 2, 'Graneleira', 1, 'Constellation', 'HQT-1289', 18.5);
 
-
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho)
         VALUES (22, '8JKHE21DX25060999', '2008', 1, 'bau', 1, 'Constellation 2', 'JGI-0012', 15.0);
 
-
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho)
         VALUES (23, '7NWSP21JX25061000', '2007', 4, 'Carroceria', 1, 'Accelo MB915', 'IBT-9913', 5.3);
-
 
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho)
         VALUES (24, '4GLHE21JX25060444', '2012', 4, 'Combustiveis', 2, 'Volks-CB9000', 'LJK-5640', 15.9);        
@@ -305,7 +302,14 @@ INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria,cava
 INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho)
         VALUES (30, '8GTHE21CC25061010', '2011', 4, 'Bau', 1, 'Vertis', 'GWT-1522', 7.5);
        
+INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho) 
+		VALUES (25, '9DRFP21BN2506145TY', '20051103', 2, 'cacamba', 2, 'Hao 123', 'YKD-7954', 12.0);
 
+INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria, cavalo_mecanico, modelo, placa, tamanho) 
+		VALUES (29, '68RFP21BN2506145HG', '20041029', 4, 'pedreira', 2, '', 'PGD-7987', 13.0);
+
+INSERT INTO veiculo (id_motorista, chassi, ano, quantidade_eixo, carroceria,cavalo_mecanico, modelo, placa, tamanho) 
+		VALUES (22, '9KTFP21YP2506145UH', '20000801', 1, 'Carroceria', 2, 'BI-TREN', 'KCD-7988', 8.0);
 /*
    insert licenciamento
 */
