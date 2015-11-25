@@ -37,7 +37,7 @@
     DELETE FROM tipo WHERE perigosa = 'false' and id = 4;
 
 --Questão 5.i - Exclusão de dados da tabela veiculo. Irá excluir veículos com ano inferior a 2006 ou que possuêm carroceria pedreira
-	DELETE FROM veiculo WHERE ano > 2004 or carroceria = 'pedreira';
+	DELETE FROM veiculo WHERE ano < 2004 or carroceria = 'pedreira';
 
 -- Questão 5.j - exclusão de dados da tabela veiculo excluir da tabela o veículo que está ligado a motorista Bianca Pinto
     DELETE FROM veiculo WHERE id_motorista = (SELECT m.id from motorista m inner join pessoa p on m.id = p.id where p.nome = 'Bruna Pinto');
